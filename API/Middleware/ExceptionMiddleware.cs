@@ -20,7 +20,7 @@ namespace API.Middleware
         {
             try{
                  
-               //we use the RequestDelete. This is the function that can process an Http Request and we called it next.
+               //we use the RequestDelegate. This is the function that can process an Http Request and we called it next.
                await _next(context); //if no exception it will move to next stage and if any exception goes to catch block.  
 
             }
